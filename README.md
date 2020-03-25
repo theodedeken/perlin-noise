@@ -7,6 +7,7 @@ SPDX-License-Identifier: CC0-1.0
 # perlin-noise
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![REUSE compliant](https://github.com/theodedeken/perlin-noise/workflows/REUSE%20compliant/badge.svg)](https://reuse.software/)
 
 Simple world generation using Perlin noise
 
