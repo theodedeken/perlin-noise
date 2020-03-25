@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2020 Theo Dedeken
+//
+// SPDX-License-Identifier: MIT
+
 package perlin_noise.worldgen;
 
 import javafx.scene.image.PixelWriter;

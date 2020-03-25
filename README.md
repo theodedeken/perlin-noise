@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2020 Theo Dedeken
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # perlin-noise
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
@@ -44,3 +50,11 @@ Small note: If editing the README, please conform to the [standard-readme](https
 ## License
 
 MIT © 2020 Theo Dedeken
+
+This work is licensed under multiple licences:
+
+* All original source code is licensed under MIT.
+* All configuration files are licensed under CC0-1.0
+* All gradle build scripts are licensed under their original Apache-2.0 license
+
+All the files in this repo are licensed according to the [REUSE](https://reuse.software/) specification.
