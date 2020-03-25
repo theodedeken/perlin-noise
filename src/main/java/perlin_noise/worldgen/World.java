@@ -22,6 +22,7 @@ public class World {
     private WorldTile[] world;
     private int width;
     private int height;
+    private int[][] dirlist = { { 1, 1 }, { 1, 0 }, { 1, -1 }, { 0, 1 }, { 0, -1 }, { -1, 1 }, { -1, 0 }, { -1, -1 } };
 
     public World(int xDef, int yDef, int octaves, double rivers, double forestation) {
         this.xDef = xDef;
@@ -110,8 +111,6 @@ public class World {
         }
         return next;
     }
-
-    private int[][] dirlist = { { 1, 1 }, { 1, 0 }, { 1, -1 }, { 0, 1 }, { 0, -1 }, { -1, 1 }, { -1, 0 }, { -1, -1 } };
 
     public WorldTile[] getNeighbours(WorldTile tile) {
         WorldTile[] neighbours = new WorldTile[8];

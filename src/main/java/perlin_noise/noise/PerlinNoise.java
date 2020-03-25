@@ -17,12 +17,11 @@ public class PerlinNoise {
     private int xDef;
     private int yDef;
     private PerlinNoiseNode[] nodes;
-    private Random random;
 
     public PerlinNoise(int xDef, int yDef) {
         this.xDef = xDef;
         this.yDef = yDef;
-        random = new Random();
+        Random random = new Random();
         nodes = new PerlinNoiseNode[xDef * yDef];
         for (int i = 0; i < xDef * yDef; i++) {
             nodes[i] = new PerlinNoiseNode(random.nextDouble() * 2 * Math.PI);
