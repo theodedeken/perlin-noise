@@ -6,6 +6,7 @@ SPDX-License-Identifier: CC0-1.0
 
 # perlin-noise
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9772938196f74a81b61ac7610a3a1bda)](https://app.codacy.com/manual/theodedeken/perlin-noise?utm_source=github.com&utm_medium=referral&utm_content=theodedeken/perlin-noise&utm_campaign=Badge_Grade_Dashboard)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![REUSE compliant](https://github.com/theodedeken/perlin-noise/workflows/REUSE%20compliant/badge.svg)](https://reuse.software/)
 
